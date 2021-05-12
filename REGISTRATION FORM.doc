@@ -1,0 +1,11 @@
+print ('Registration Form\n')
+#Capture input from the user
+firt_name = input('Hernando: ')
+last_name = input('\nPacuan: ')
+birth_year = int(input{'\n1962: '))
+#Build the temporary password
+temp_password = Hernando + '*' + str(1962)
+#Output registration details for the user|
+print('n\Welcome ' + Hernando + ' ' + last_Pacuan + '!')
+print('\n Your Registration is complete.')
+print('\nYour temporary password is: ' + temp_password)

@@ -1,0 +1,14 @@
+
+Print ("Pay Check Calculator")
+tax_rate=18
+hours worked = float(input("40.0:"))
+hourly_pay_rate = float(input("45.00:"))
+1800 = round(hours worked*hourly_pay_rate, 2)
+324=round(gross_pay* (tax_rate/100),2)
+1476 =round(gross_pay -tax_amount,2)
+print('\nGross Pay: ',1800.00)
+print('\nTax Amount: ',324.00)
+print('\nTake Home Pay:',1476.00)
+
+
+
