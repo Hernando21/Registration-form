@@ -1,0 +1,32 @@
+Python 3.7.8 (tags/v3.7.8:4b47a5b6ba, Jun 28 2020, 08:53:46) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print("Grade Checker")
+Grade Checker
+>>> n=int(input("Enter your grade: "))
+Enter your grade: 88
+>>> if n<=100 and n>=90:
+        print("You earned an A")
+>>> elif n<=89 and n>=80:
+        print("You earned a B")
+You earned a B
+>>> elif n<=79 and n>=70:	
+        print("You earned C")
+You earned C
+>>> Elif n<=69 and n>=60:	
+        print("You earned a D")
+You earned a D
+>>> if n<=59:
+	print("You earned a F")
+
+Output:
+    Grade Cheker
+    Enter your Grade: 100
+    You earned a A
+
+Grade Calculator:
+    100-90: A
+    89-80: B
+    79-70: C
+    69-60: D
+    59 and Below:: F
+	
